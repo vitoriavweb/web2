@@ -73,8 +73,6 @@ h1{
         justify-content: center;
         justify-items: center;
         align-items: center;
-        width: 60%;
-        height: 2px;
         background-color: #000;
     }
 
@@ -87,33 +85,62 @@ h3{
     margin-top: 4%;
 }
 .clima_ceara{
-    width: 100%;
-    height: 200vh;
+    margin-top: 10%;
     display: flex;
-    justify-items: center;
     flex-direction: column;
+    background-color: yellow;
+    max-width: 35%;
+    border-radius: 2%;
+    padding: 0.2em;
 }
 .clima_ceara_titulo{
-    
-}
-.clima_ceara_img{
-    width: 35%;
-    height:50%;
-    margin: 6%;
     display: flex;
-    align-items: center;
-    justify-content: center
-}
-.clima_ceara_img > img{
-    width: 100%;
-    height: 100%;
-}
-
-.clima_ceara_txt{
-    font-size: 10px;
-    margin: 2px;
-    display: flex;
-    justify-items: center;
     justify-content: center;
     text-align: center;
+    margin: 5%;
+}
+h4{
+    font-size: 2.5vh;
+}
+.clima_ceara_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+img{
+    max-width: 70%;
+    border-radius: 5%;
+}
+.ceara_txt{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 5%;
+}
+.cul_ceara{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    max-width: 35%;
+    border-radius: 2%;
+    padding: 0.2%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.cul_ceara_titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+.cul_ceara_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.sla{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh;
 }
